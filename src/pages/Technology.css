@@ -1,0 +1,24 @@
+.tech-bg {
+  background-image: url(..\assets\technology\background-technology-mobile.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 100vh;
+ }
+ 
+ @media (min-width: 450px) {
+   .tech-bg {
+   background-position: center center;
+   background-size: cover;
+   height: 100%;
+   background-image: url(..\assets\technology\background-technology-tablet.jpg);
+   }
+ }
+ 
+ @media (min-width: 955px) {
+   .tech-bg {
+    background-size: cover;
+    height: 100vh;
+   background-image: url(..\assets\technology\background-technology-desktop.jpg);
+   }
+ }

@@ -1,0 +1,171 @@
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 240px;
+  padding-bottom: 3rem;
+}
+
+p {
+  font-family: Barlow;
+  width: 444px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--light-blue);
+}
+
+.title_hero {
+  margin-bottom: 24px;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.7px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.title-big {
+  font-family: Bellefair;
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 172px;
+  margin-bottom: 24px;
+}
+
+
+.hero-button {
+  width: 274px;
+  height: 274px;
+  place-items: center;
+  display: inline-grid;
+  background-color: white;
+  color: var(--dark-blue);
+  font-family: Bellefair;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+
+@media (min-width: 1700px) {
+  .title_hero {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .title-big {
+    font-size: 170px;
+    margin-bottom: 28px;
+  }
+  p {
+    font-size: 20px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 1100px) {
+  p {
+    font-size: 16px;
+  }
+
+  .title-big {
+    line-height: 150px;
+  }
+
+  .title_hero {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .hero-button {
+    width: 242px;
+    height: 242px;
+  }
+}
+
+@media (max-width: 975px) {
+  
+  .hero-button {
+    margin-top: 150px;
+  }
+
+  .hero {
+    flex-direction: column;
+    margin-top: 105px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .title_hero {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.38px;
+  }
+
+}
+
+@media (max-height: 800px) {
+  .hero {
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 565px) {
+  .text {
+    align-items: center;
+  }
+    
+  .title-big {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 350px;
+  }
+  .hero-button {
+    width: 190px;
+    height: 190px;
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .title_hero {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  .title-big {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 330px;
+  }
+  
+  .hero-button {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    margin-top: 80px;
+  }
+}
+
+

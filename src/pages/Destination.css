@@ -1,0 +1,24 @@
+.dest-bg {
+ background-image: url(..\assets\destination\background-destination-mobile.jpg);
+ background-size: cover;
+ height: 100%;
+ background-position: bottom center;
+ background-repeat: no-repeat;
+}
+
+@media (min-width: 560px) {
+  .dest-bg {
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  background-image: url(..\assets\destination\background-destination-tablet.jpg);
+  }
+}
+
+@media (min-width: 955px) {
+  .dest-bg {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(..\assets\destination\background-destination-desktop.jpg);
+  }
+}
